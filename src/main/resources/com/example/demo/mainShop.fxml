@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="903.0"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ShopPageController">
+   <children>
+      <TableView fx:id="shopPageTable" fixedCellSize="2.0" layoutX="69.0" layoutY="59.0" prefHeight="377.0" prefWidth="780.0">
+        <columns>
+          <TableColumn fx:id="shopPageId" prefWidth="65.0" text="ID" />
+          <TableColumn fx:id="shopPageNameProduct" prefWidth="131.0" text="Имя" />
+            <TableColumn fx:id="shopPageCategoryProduct" prefWidth="152.0" text="Категория" />
+            <TableColumn fx:id="shopPagePriceProduct" prefWidth="95.0" text="Цена" />
+            <TableColumn fx:id="shopPageQuantityProduct" prefWidth="155.0" text="Количество" />
+            <TableColumn fx:id="shopPageDescriptionProduct" prefWidth="181.0" text="Описание" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
